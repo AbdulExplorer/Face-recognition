@@ -1,0 +1,229 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+    /* box-sizing: border-box; */
+
+}
+
+/* Navbar */
+#naav {
+    background-color: #252525;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#navW
+{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#loginHomeButton
+{
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    border: 1px solid rgb(204, 204, 204);
+
+}
+#loginHomeButton:hover
+{
+   background-color: #fff;
+   color: rgb(37, 37, 37);
+}
+#signupHomeButton:hover
+{
+    font-size: 1.02rem;
+}
+#threeLine
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#three
+{
+    width: 15px;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    margin: 2px;
+}
+
+.container
+{
+    position: relative;
+}
+/* .container img
+{
+    height: 620px;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    /* position: relative; */
+    /* background-color: aqua; */
+/* } */ 
+
+.container .introLine {
+    /* position: absolute; */
+    text-align: center;
+    background-color: #2e2e2e;
+    /* background: url('assets/images/b1.jpeg'); */
+    color: rgb(255, 255, 255);
+    padding: 200px;
+    /* padding-top: 10%; */
+    /* position: relative; */
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4.5rem;
+    margin: 0;
+    
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Category Section */
+#categories {
+    padding-top: 5%;
+    text-align: center;
+    /* margin: 0px; */
+    /* background-color: #3b3b3b; */
+
+}
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.category-list,
+#additional-categories button
+{ 
+    /* display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    /* padding: 150px 20px; */
+    /* font-size: 1rem;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    width: 1140px;
+    padding-left:190px;
+}
+#card
+{
+    height: 280px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid rgb(204, 204, 204);
+    transition: all 0.25s;
+    color: #000000;
+}
+#card:hover
+{
+    transform: scale(1.03);
+    background-color: #444444;
+    color: #ffffff;
+
+}
+#cardImg
+{
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    height: 180px;
+    width: 360px;
+    object-fit:cover;
+    /* object-position: 0 -200px ; */
+}
+#cardtext
+{
+    /* font-size: medium; */
+    padding-top: 0px;
+    font-family: sans-serif;
+    /* color: rgb(65, 65, 65); */
+}
+#see-more
+ {
+    margin-top: 70px;
+    margin-bottom: 10px ;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+
+}
+#see-more:hover
+{
+   background-color: #444444;
+   color: rgb(255, 255, 255);
+
+    
+}
+
+#additional-categories {
+    margin-top: 5px;
+    margin-bottom: 300px ;
+    
+}
+
+.hidden {
+    display: none;
+}
+
+/* Footer */
+footer {
+    /* margin-top: 300px; */
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}

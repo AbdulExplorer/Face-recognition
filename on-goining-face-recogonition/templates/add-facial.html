@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facial Recognition System</title>
+    <link rel="stylesheet" href= "../assets/css/face.css">
+    <link rel="stylesheet" href= "../assets/css/styles.css">
+</head>
+<body>
+     <!-- Navbar for FR page -->
+     <header id="naav">
+        <div class="navbar">
+            <h1 class="logo">F R A A A M S</h1>
+            <nav id="navW">
+                    <!-- <div id="threeLine2" href="">
+                       <div id="three"></div>
+                       <div id="three"></div>
+                       <div id="three"></div>
+                    </div> -->
+            </nav>  
+        </div>
+    </header>
+
+    <div id="imgPro">
+        <div id="outer-circle">
+            <div id="inner-circle">
+                <img id="imgF" src="../assets/images/face1.png" alt="">
+            </div>
+        </div>
+        <h3>Enroll Face</h3>
+        <form method="POST" action="/enroll">
+            <input type="text" name="name" placeholder="Enter Your Name" required>
+            <button type="submit">Enroll</button>
+        </form>
+        <button onclick="startRecognition()">Start Recognition</button>
+    </div>
+    
+    <script>
+        function startRecognition() {
+            fetch('/recognize', { method: 'POST' })
+                .then(response => response.json())
+                .then(data => alert(data.message))
+                .catch(error => console.error('Error:', error));
+        }
+    </script>
+    
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 FRAAAMS. All Rights Reserved.</p>
+    </footer>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+/* Sign Up page  */
+#signupPage
+{
+   display: flex;
+}
+#sImg{
+    height: 100vh;
+    width: 500px;
+    margin: 0;
+    object-fit: cover;
+}
+h2{
+    padding-bottom: 70px;
+}
+#form
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* margin: 10px; */
+    margin-top: 150px;
+    justify-content: space-between;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100%;
+    gap: 20px;
+
+}
+
+#signupGoogleBar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 340px;
+    height: 40px;
+
+    
+}
+#or
+{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    width: 680px;
+    justify-content: space-between;
+    justify-content: space-around;
+    color: rgb(101, 101, 101) ;
+}
+#l
+{
+    height: 0.7px;
+    width: 250px;
+    background-color: rgb(206, 206, 206);
+}
+#createAcc
+{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 1rem;
+    width: 340px;
+    height: 40px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(204, 204, 204);
+    background-color: rgb(255, 255, 255);
+}
+
+#already
+{
+    
+    text-decoration: none;
+    font-size: small;
+
+}
+
+/* Registration */
+#registration
+{
+    display: flex;
+}
+#rp
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    
+}
+/* #rpTitle
+{
+    text-align: center;
+    background-color: #2e2e2e;
+    color: white;
+    height: 200px;
+    width: 1019px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+#ur{
+    padding-bottom: 70px;
+    /* margin-top: 20px; */
+    /* padding-top: 0%; */
+    
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+}
+#NewUserDetals
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 410px;
+}
+
+/* login page */
+
+#lImg{
+    height: 100vh;
+    width: 500px;
+    margin: 0;
+    object-fit: cover;
+    object-position:-200px 0px ;
+}
+
+#form2
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: space-between;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100%;
+    gap: 20px;
+    margin-bottom: 0%;
+}
+
+#loginDetals
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 210px;
+}
+
+#box
+{
+    width: 340px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+#createAcc:hover
+{
+    color: white;
+    background-color: black;
+}
+
